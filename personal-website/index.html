@@ -4,23 +4,22 @@
 		<meta charset="UTF-8">
 		<title>Pagina personal</title>
 		<link rel="stylesheet" href="style.css">
-		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 	</head>
 	<body>
 		<header>
 			<h1>Eric Celeiro Garrido</h1>
+			<p>Backend developer in training</p>
 		</header>
 		<main>	
-			<p>¡Bienvenidos a mi pagina personal!</p>
-			<h2>Sobre mi</h2>
-			<p>Actualmente soy estudiante de Desarrollo de aplicaciones web en UOC.</p>
-			<p>A parte de eso, programo en mi tiempo libre, busco proyectos y trabajo para empezar a ganar experiencia en el sector.</p> 
+			<h2>Sobre mí</h2>
+			<p>Actualmente soy estudiante de Desarrollo de aplicaciones web en la Universitat Oberta de Catalunya - UOC.</p>
+			<p>A parte de eso, programo en mi tiempo libre, busco proyectos y trabajo para ganar experiencia en el sector.</p> 
 			<h3>Links de interés</h3>
-			<p>
-				<strong>Github:</strong>
-				<a href="https://github.com/CeleiroEric" target="_blank"> github.com/CeleiroEric</a>
-			</p>
-			<p><strong>Correo de contacto: </strong>celeiroericwork@gmail.com</p>
+			<ul>
+				<li><Strong>Github: </Strong><a href="https://github.com/CeleiroEric" target="_blank">Github/CeleiroEric</a></li>
+				<li><Strong>Correo de contacto: </Strong><a href="mailto:celeiroericwork@gmail.com">celeiroericwork@gmail.com</a></li>
+			</ul>
 			<table>
 				<tr>
 					<td><strong>Lenguaje</strong></td>
@@ -28,7 +27,7 @@
 				</tr>
 				<tr>
 					<td>Java</td>
-					<td>Medio</td>
+					<td>Medio/Alto</td>
 				</tr>
 				<tr>
 					<td>Python</td>
@@ -43,8 +42,24 @@
 					<td>Medio</td>
 				</tr>
 			</table>
+			<h2>Proyectos</h2>
+			
+			<ul id="projects">
+				<li>
+					<strong>--User-management-system</strong><br>
+				    Sistema back-end programado en Java, permite crear y gestionar usuarios desde un menú multifuncional.<br>
+				    <strong>Link: </strong><a href="https://github.com/CeleiroEric/user-management-system.git">User-Management-System.</a>
+				</li>
+				<li>
+					<strong>--Landing-page</strong><br>
+				    Programa front-end que simula la pagina de lanzamiento de un servicio ficticio.<br>
+				    <strong>Link: </strong><a href="https://github.com/CeleiroEric/web-practice/tree/main/landing-page-practice">Landing-Page.</a>
+				</li>
+			</ul>
+			
 		</main>
 		<footer>
+			<h2>Formulario de contacto</h2>
 			<form action="#" method="post">
 				<label for="name">Nombre:</label>
 				<input type="text" id="name" name="name" required>
@@ -58,7 +73,6 @@
 				<button type="submit">Enviar</button>
 			</form>
 			<p><Strong>Nota: Este formulario es solo de ejemplo, no es funcional, no envia información.</Strong></p>
-			
 		</footer>
 	</body>
 </html>
