@@ -34,11 +34,54 @@ section{
     padding:20px;
     margin: 0;
     border-bottom: 20px solid rgb(52, 52, 173);
+    text-align:center;
+    
 }
 #caracteristicasList{
     padding:10px;
     margin: 0;
+    list-style: none;
 }
 li{
     margin:5px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width:20%;
+    gap:5px;
+    margin-top:10px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin-top: 20px;
+}
+input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(52, 52, 173); 
+}
+textarea{
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(52, 52, 173);
+}
+button{
+    border-radius:5px;
+    cursor: pointer;
+    margin:10px;
+    width: 30%;
+    align-self: center;
+    padding:5px;
+}
+button:hover{
+    color: #4040b0;
+    border: 2px solid rgb(52, 52, 173);
+}
+#contact{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
