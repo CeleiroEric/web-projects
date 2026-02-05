@@ -18,3 +18,6 @@ Objetivo: practicar diseño de landing pages, navegación con `<nav>`, listas `<
 
 **Carpeta:** [landing-page-practice](./landing-page-practice)       
 **Link-web:**  [landing-page-practice](https://celeiroeric.github.io/web-practice/landing-page-practice/)
+
+## Registration-form-JS
+En proceso, pagina web que simula un formulario de registro con validacion JavaScript.
