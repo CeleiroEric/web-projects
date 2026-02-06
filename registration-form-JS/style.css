@@ -50,6 +50,10 @@ button:hover{
     background-color:white;
     color: #00e5ff65;
 }
+span{
+    color: red;
+    display:block;
+}
 @media(max-width:480px){
     body{
         padding: 10px;
