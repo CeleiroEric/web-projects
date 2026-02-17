@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Gallery</title>
         <link rel="stylesheet" href="style.css">
     </head>
@@ -12,22 +13,31 @@
         <main>
             <div class="filter-buttons">
                 <button data-filter="all">Mostrar todo</button>
-                <button data-filter="web">Diseño Web</button>
-                <button data-filter="design">Branding y Diseño</button>
-                <button data-filter="js">JavaScript</button>
+                <button data-filter="nature">Naturaleza</button>
+                <button data-filter="city">Ciudad</button>
+                <button data-filter="food">Comida</button>
             </div>
             <div class="gallery-container">
-                <div data-category="web">
-                    <img src="https://picsum.photos/id/1/300/200" alt="portatil-con-codigo">
+                <div data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=800&q=80" alt="Montañas">
                 </div>
-                <div data-category="design">
-                    <img src="https://picsum.photos/id/60/300/200" alt="bocetos">
+                <div data-category="nature">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?auto=format&fit=crop&w=800&q=80" alt="Bosque">
                 </div>
-                <div data-category="js">
-                    <img src="https://picsum.photos/id/180/300/200" alt="pantalla-con-js">
+
+                <div data-category="city">
+                    <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?auto=format&fit=crop&w=800&q=80" alt="Calle de ciudad moderna">
                 </div>
-                <div data-category="js">
-                    <img src="https://picsum.photos/id/120/300/200">
+                <div data-category="city">
+                    <img src="https://images.unsplash.com/photo-1448630360428-65456885c650?auto=format&fit=crop&w=800&q=80" alt="Arquitectura Minimalista Blanca">
+                </div>
+
+                <div data-category="food">
+                    <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=800&q=80" alt="Plato Gourmet">
+                </div>
+                <div data-category="food">
+                    <img src="https://images.unsplash.com/photo-1473093226795-af9932fe5856?auto=format&fit=crop&w=800&q=80" alt="Plato de pasta italiana">
+                </div>
                 </div>
             </div>
         </main>

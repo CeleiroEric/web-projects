@@ -79,3 +79,29 @@ button:hover{
 .close:hover {
     color: #bbb;
 }
+
+@media (max-width: 480px) {
+    .filter-buttons {
+        flex-wrap: wrap; 
+        gap: 8px; 
+        padding: 0 15px;
+    }
+
+    button {
+        flex: 1 1 45%;
+        min-width: 0;   
+        padding: 12px 5px; 
+        font-size: 13px;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+        margin-bottom: 20px;
+    }
+
+    .gallery-container {
+        grid-template-columns: 1fr; 
+        padding: 10px;
+    }
+}
